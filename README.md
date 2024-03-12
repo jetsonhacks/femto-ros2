@@ -33,6 +33,6 @@ For example:
 '/usr/bin/ld: warning: libopencv_calib3d.so.4.2, needed by /opt/ros/galactic/lib/libimage_geometry.so, may conflict with libopencv_calib3d.so.4.5'
 
 ### Initial Release, March 2024
-* Initial build and test on Jetson AGX Orin
-* Femto Bolt
+* Initial build and test on NVIDIA Jetson AGX Orin
+* Orbbec Femto Bolt
 * L4T 35.4.1
