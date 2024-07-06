@@ -25,7 +25,7 @@ source /ros2_ws/install/setup.bash
 ros2 launch orbbec_camera femto_bolt.launch.py & rviz2 & gnome-terminal
 ```
 
-This will launch rviz2. You can then add the camera feeds and point cloud. Setting the fixed frame to camera_depth_frame will allow you to visualize the point cloud.
+This will launch rviz2. You can then add the camera feeds and point cloud. Setting the Fixed Frame to <b><i>camera_depth_frame</i></b> will allow you to visualize the point cloud.
 
 ## Notes
 The default galactic-desktop for L4T 35.4.1 uses OpenCV 4.2. The Orbbec SDK uses OpenCV 4.5. In the Dockerfile, OpenCV 4.2 is purged and replaced with OpenCV 4.5. This may cause conflicts with other packages.
