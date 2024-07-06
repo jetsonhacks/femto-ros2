@@ -25,6 +25,7 @@ RUN apt update && \
         gnome-terminal \
         ros-$ROS_DISTRO-ament-lint-auto \
         ros-$ROS_DISTRO-ament-cmake \
+        ros-$ROS_DISTRO-diagnostic-updater \
         ros-$ROS_DISTRO-rosidl-default-generators \
         ros-$ROS_DISTRO-std-srvs \
         ros-$ROS_DISTRO-tf2 \
